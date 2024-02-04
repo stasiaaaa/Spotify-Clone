@@ -1,3 +1,4 @@
+import Header from "@/components/Header";
 
 
 export default function Home() {
@@ -9,7 +10,9 @@ export default function Home() {
     w-full
     overflow-hidden
     overlow-y-auto">
-      
+      <Header>
+        Header
+      </Header>
     </div>
   );
 }
