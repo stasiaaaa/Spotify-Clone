@@ -21,7 +21,7 @@ const Header:React.FC<Headerprops> = ({
         // Handle logout
     }
     return (
-        <div className={twMerge('h-fit bg-gradient-to-b from-emerald-800 p-10',
+        <div className={twMerge('h-fit bg-gradient-to-b from-emerald-800 p-5',
         className)}
         >
             <div className="
@@ -129,6 +129,7 @@ const Header:React.FC<Headerprops> = ({
                     </>
                 </div>
             </div>
+            {children}
         </div>
     );
 }
